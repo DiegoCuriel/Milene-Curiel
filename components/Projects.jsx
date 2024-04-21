@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import directedImg from "../public/assets/projects/directed.jpg";
+import collaboratedImg from "../public/assets/projects/collaborated.jpg";
+import photographedImg from "../public/assets/projects/photographed.jpg";
+import moreImg from "../public/assets/projects/more.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -18,27 +18,23 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Directed"
-            backgroundImg={propertyImg}
+            backgroundImg={directedImg}
             projectUrl="/property"
-            tech=""
           />
           <ProjectItem
             title="Collaborated"
-            backgroundImg={cryptoImg}
+            backgroundImg={collaboratedImg}
             projectUrl="/crypto"
-            tech=""
           />
           <ProjectItem
             title="Photographed"
-            backgroundImg={netflixImg}
+            backgroundImg={photographedImg}
             projectUrl="/netflix"
-            tech=""
           />
           <ProjectItem
-            title="Photographed"
-            backgroundImg={twitchImg}
+            title="& more..."
+            backgroundImg={moreImg}
             projectUrl="/twitch"
-            tech=""
           />
         </div>
       </div>
