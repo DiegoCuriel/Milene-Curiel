@@ -23,11 +23,13 @@ const property = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4 space-y-8">
-          <p>Project</p>
           <h2>Overview</h2>
           <p>
-            These are the projects under my direction to date, categorized into
-            personal and corporate initiatives.
+            While the common denominator on this section is directing, I've also
+            contributed to these projects in diverse roles such as writing,
+            filming, editing, producing, acting, and more. Each project
+            represents a unique blend of creative endeavors and collaborative
+            efforts.
           </p>
         </div>
 
@@ -282,7 +284,6 @@ const property = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
