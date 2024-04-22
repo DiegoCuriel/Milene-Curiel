@@ -23,13 +23,12 @@ const property = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4 space-y-8">
-          <h2>Overview</h2>
           <p>
             While the common denominator on this section is directing, I've also
             contributed to these projects in diverse roles such as writing,
             filming, editing, producing, acting, and more. Each project
             represents a unique blend of creative endeavors and collaborative
-            efforts.
+            efforts. Showcasing both the personal and corporate aspects of my work.
           </p>
         </div>
 
@@ -195,7 +194,7 @@ const property = () => {
         </div>
 
         <div className="col-span-4">
-          <h2 className="text-2xl font-bold mb-8">Coporate Projects</h2>
+          <h2 className="text-2xl font-bold mb-8 mt-8">Coporate Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="video-margin">
               <div className="video-container mb-4">

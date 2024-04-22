@@ -23,7 +23,6 @@ const crypto = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4 space-y-8">
-          <h2>Overview</h2>
           <p>
             I've had the privilege of working on a variety of captivating
             audiovisual projects, spanning commercials, short films, and other
@@ -32,7 +31,7 @@ const crypto = () => {
         </div>
 
         <div className="col-span-4">
-          <h2 className="text-2xl font-bold mb-8">Personal Projects</h2>
+          <h2 className="text-2xl font-bold mb-8">Corporate Projects</h2>
           <h3 className="mb-2">Commercial for Huevo San Juan</h3>
           <h3 className="mb-2">Position: PA trainee</h3>
           <p className="mb-4">Production company: Cobra Films</p>

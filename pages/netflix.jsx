@@ -40,7 +40,6 @@ const netflix = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <h2>Overview</h2>
           <p>
             Over the years, my photography has been a journey of growth and
             learning, reflecting my deepening passion for visual storytelling.
