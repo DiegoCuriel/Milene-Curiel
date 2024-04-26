@@ -82,7 +82,7 @@ const Main = () => {
         <Link href="/">
           <a>
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleDown className="text-[#5651e5]" size={30} />
+              <HiOutlineChevronDoubleDown className="text-[text-black]" size={25} />
             </div>
           </a>
         </Link>
