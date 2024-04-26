@@ -11,10 +11,9 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-        <p className="text-xl tracking-widest uppercase text-[text-black]">
+        <p className="text-xl tracking-widest uppercase text-[text-black] mb-4">
           Refferals
         </p>
-        <h2 className="py-4">Am I a good collaborator?</h2>
 
         <p>
           Curious about what previous collaborators have to say about working

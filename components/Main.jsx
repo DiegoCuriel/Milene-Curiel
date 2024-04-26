@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaInstagram, FaYoutube, FaFilm } from "react-icons/fa";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 
 const Modal = ({ isOpen, onClose, email }) => {

@@ -4,30 +4,41 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-// import { useRouter } from 'next/router';
+import { FaInstagram, FaYoutube } from "react-icons/fa";
+
+const Modal = ({ isOpen, onClose, email }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center">
+      <div className="bg-white p-8 rounded-lg">
+        <h2 className="text-lg">Contact Email</h2>
+        <p>{email}</p>
+        <button
+          onClick={onClose}
+          className="mt-4 bg-blue-500 text-white rounded px-4 py-2"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+};
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  // const [position, setPosition] = useState('fixed')
-  // const router = useRouter();
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
-  //   ) {
-  //     setNavBg('transparent');
-  //     setLinkColor('#ecf0f3');
-  //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
-  //   }
-  // }, [router]);
+  const handleOpenModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalIsOpen(false);
+  };
 
   const handleNav = () => {
     setNav(!nav);
@@ -112,7 +123,8 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s build something legendary together
+                LET'S CREATE SOMETHING TOGETHER
+                <span className="text-lg">!</span>
               </p>
             </div>
           </div>
@@ -140,49 +152,44 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[text-black]">
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.instagram.com/milene.art?igsh=MXB4YjdmN2ZiN3RsbA=="
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaInstagram />
                   </div>
                 </a>
                 <a
-                  href="https://github.com/fireclint"
+                  href="https://www.youtube.com/@milenecuriel6923"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaYoutube />
                   </div>
                 </a>
-                <Link href="/#contact">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href="/resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
+                <div
+                  onClick={handleOpenModal}
+                  className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                >
+                  <AiOutlineMail />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Modal
+        isOpen={modalIsOpen}
+        onClose={handleCloseModal}
+        email="milene.curiel@gmail.com"
+      />
     </div>
   );
 };
