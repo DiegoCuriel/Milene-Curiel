@@ -54,10 +54,4 @@ html {
   .video-margin {
     margin-right: 0px;
   }
-  
-  .video-margin:last-child {
-    margin-right: 0;
-    margin-left: 100px;
-  }
-  
 }

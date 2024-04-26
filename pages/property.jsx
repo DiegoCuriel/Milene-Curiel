@@ -4,7 +4,22 @@ import directedImg from "../public/assets/projects/directed.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const property = () => {
+const Property = () => {
+  const videos = [
+    { src: "ehoz1rZY18I", label: "VIEW on YOUTUBE" },
+    { src: "94jucFujnI8", label: "VIEW on YOUTUBE" },
+    { src: "8f7bSXvEmp4", label: "VIEW on YOUTUBE" },
+    { src: "utrNuHv0uwM", label: "VIEW on YOUTUBE" },
+    { src: "TJmKu6Dgmgk", label: "VIEW on YOUTUBE" },
+    { src: "vCdPCqtAbg4", label: "VIEW on YOUTUBE" },
+    { src: "kafGjCk2eE4", label: "VIEW on YOUTUBE" },
+    { src: "sbjqqWfpksE", label: "VIEW on YOUTUBE" },
+    { src: "-KvBA7gf2o8", label: "VIEW on YOUTUBE", isCorporate: true },
+    { src: "BesR7uavQZk", label: "VIEW on YOUTUBE" },
+    { src: "wWvxYLtWcMI", label: "VIEW on YOUTUBE" },
+    { src: "TBTmeGgwVmY", label: "VIEW on YOUTUBE" },
+  ];
+
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -28,279 +43,43 @@ const property = () => {
             contributed to these projects in diverse roles such as writing,
             filming, editing, producing, acting, and more. Each project
             represents a unique blend of creative endeavors and collaborative
-            efforts. Showcasing both the personal and corporate aspects of my work.
+            efforts. Showcasing both the personal and corporate aspects of my
+            work.
           </p>
         </div>
 
         <div className="col-span-4">
           <h2 className="text-2xl font-bold mb-8">Personal Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/ehoz1rZY18I"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/ehoz1rZY18I?si=lZP_Gr6XctybIB9Y"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/94jucFujnI8"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/94jucFujnI8?si=lKdZffmKDv6LidJj"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/8f7bSXvEmp4"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/8f7bSXvEmp4?si=60iYmD8lBY_ctqM4"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/utrNuHv0uwM"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/utrNuHv0uwM?si=THRE8D2gEFNTmuj8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/TJmKu6Dgmgk"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/TJmKu6Dgmgk?si=sDNIJ_NhdQDaWuB7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/vCdPCqtAbg4"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/vCdPCqtAbg4?si=znW10qS8rBV12lIn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/kafGjCk2eE4"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/kafGjCk2eE4?si=Wm-QQCW3DRIl2ezY"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/sbjqqWfpksE"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/sbjqqWfpksE?si=8NStBy7X0rpdAryz"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <h2 className="text-2xl font-bold mb-8 mt-8">Corporate Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/-KvBA7gf2o8"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/-KvBA7gf2o8?si=EFjGcLIwnYgjv5cf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/BesR7uavQZk"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/BesR7uavQZk?si=k3GUar0q_oe4BRxn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/wWvxYLtWcMI"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/wWvxYLtWcMI?si=ArUAlkosPIMffa57"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/TBTmeGgwVmY"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/TBTmeGgwVmY?si=-7GQ8SP7FqwB-iRU"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {videos.map((video, index) => (
+              <>
+                {video.isCorporate && (
+                  <h2 className="col-span-full text-2xl font-bold mb-2 mt-8">
+                    Corporate Projects
+                  </h2>
+                )}
+                <div key={index} className="video-margin col-span-1">
+                  <div className="relative pt-[56.25%]">
+                    <iframe
+                      className="absolute top-0 left-0 w-full h-full"
+                      src={`https://www.youtube.com/embed/${video.src}`}
+                      title="YouTube video player"
+                      allowFullScreen
+                      frameborder="0"
+                    ></iframe>
+                  </div>
+                  <a
+                    href={`https://youtu.be/${video.src}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="w-full px-8 py-2 botonyt">
+                      {video.label}
+                    </button>
+                  </a>
+                </div>
+              </>
+            ))}
           </div>
         </div>
       </div>
@@ -308,4 +87,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default Property;

@@ -4,7 +4,7 @@ import collaboratedImg from "../public/assets/projects/collaborated.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const crypto = () => {
+const Crypto = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -35,15 +35,15 @@ const crypto = () => {
           <h3 className="mb-2">Commercial for Huevo San Juan</h3>
           <h3 className="mb-2">Position: PA trainee</h3>
           <p className="mb-4">Production company: Cobra Films</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="video-margin">
-              <div className="video-container mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="col-span-1 md:col-span-2">
+              <div className="relative pt-[56.25%] max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
                 <iframe
-                  width="560"
-                  height="315"
+                  className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube.com/embed/PR4SMILaWqA"
                   title="YouTube video player"
                   allowFullScreen
+                  frameborder="0"
                 ></iframe>
               </div>
               <a
@@ -63,4 +63,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default Crypto;
