@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaInstagram, FaYoutube, FaFilm } from "react-icons/fa";
+import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 
 const Modal = ({ isOpen, onClose, email }) => {
   if (!isOpen) return null;
@@ -76,6 +77,17 @@ const Main = () => {
           </div>
         </div>
       </div>
+
+      <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 py-12">
+        <Link href="/">
+          <a>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleDown className="text-[#5651e5]" size={30} />
+            </div>
+          </a>
+        </Link>
+      </div>
+
       <Modal
         isOpen={modalIsOpen}
         onClose={handleCloseModal}
