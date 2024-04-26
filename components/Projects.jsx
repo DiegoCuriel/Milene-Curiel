@@ -22,7 +22,7 @@ const Projects = () => {
             projectUrl="/property"
           />
           <ProjectItem
-            title="Collaborated"
+            title="Collaborated on"
             backgroundImg={collaboratedImg}
             projectUrl="/crypto"
           />
