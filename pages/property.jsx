@@ -83,6 +83,13 @@ const Property = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-center mt-8 mb-8">
+        <Link href="/#projects">
+          <a className="text-lg bg-black hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
+            Back to Projects
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };

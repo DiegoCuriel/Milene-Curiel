@@ -167,7 +167,9 @@ const netflix = () => {
         </div>
 
         <div className="col-span-4">
-          <h2 className="text-2xl font-bold mb-8 mt-8">Corporate Photography</h2>
+          <h2 className="text-2xl font-bold mb-8 mt-8">
+            Corporate Photography
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <Image
@@ -235,7 +237,13 @@ const netflix = () => {
             </div>
           </div>
         </div>
-
+      </div>
+      <div className="flex justify-center mt-8 mb-8">
+        <Link href="/#projects">
+          <a className="text-lg bg-black hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
+            Back to Projects
+          </a>
+        </Link>
       </div>
     </div>
   );
