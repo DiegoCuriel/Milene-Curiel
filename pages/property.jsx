@@ -40,26 +40,6 @@ const property = () => {
                 <iframe
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/utrNuHv0uwM"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/utrNuHv0uwM?si=THRE8D2gEFNTmuj8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-            <div class="video-margin">
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
                   src="https://www.youtube.com/embed/ehoz1rZY18I"
                   title="YouTube video player"
                   allowFullScreen
@@ -75,11 +55,6 @@ const property = () => {
                 </button>
               </a>
             </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="video-margin">
               <div className="video-container mb-4">
                 <iframe
@@ -100,6 +75,11 @@ const property = () => {
                 </button>
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="col-span-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="video-margin">
               <div className="video-container mb-4">
                 <iframe
@@ -112,6 +92,26 @@ const property = () => {
               </div>
               <a
                 href="https://youtu.be/8f7bSXvEmp4?si=60iYmD8lBY_ctqM4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="w-full px-8 py-2 botonyt">
+                  VIEW on YOUTUBE
+                </button>
+              </a>
+            </div>
+            <div class="video-margin">
+              <div className="video-container mb-4">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/utrNuHv0uwM"
+                  title="YouTube video player"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <a
+                href="https://youtu.be/utrNuHv0uwM?si=THRE8D2gEFNTmuj8"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -150,6 +150,51 @@ const property = () => {
                 <iframe
                   width="560"
                   height="315"
+                  src="https://www.youtube.com/embed/vCdPCqtAbg4"
+                  title="YouTube video player"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <a
+                href="https://youtu.be/vCdPCqtAbg4?si=znW10qS8rBV12lIn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="w-full px-8 py-2 botonyt">
+                  VIEW on YOUTUBE
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-span-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="video-margin">
+              <div className="video-container mb-4">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/kafGjCk2eE4"
+                  title="YouTube video player"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <a
+                href="https://youtu.be/kafGjCk2eE4?si=Wm-QQCW3DRIl2ezY"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="w-full px-8 py-2 botonyt">
+                  VIEW on YOUTUBE
+                </button>
+              </a>
+            </div>
+            <div class="video-margin">
+              <div className="video-container mb-4">
+                <iframe
+                  width="560"
+                  height="315"
                   src="https://www.youtube.com/embed/sbjqqWfpksE"
                   title="YouTube video player"
                   allowFullScreen
@@ -169,32 +214,7 @@ const property = () => {
         </div>
 
         <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <div className="video-container mb-4">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/fgRFf6Ge_C0"
-                  title="YouTube video player"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <a
-                href="https://youtu.be/fgRFf6Ge_C0?si=MKXc1cCgCYJezN96"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="w-full px-8 py-2 botonyt">
-                  VIEW on YOUTUBE
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <h2 className="text-2xl font-bold mb-8 mt-8">Coporate Projects</h2>
+          <h2 className="text-2xl font-bold mb-8 mt-8">Corporate Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="video-margin">
               <div className="video-container mb-4">
