@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import directedImg from "../public/assets/projects/directed.jpg";
 import collaboratedImg from "../public/assets/projects/collaborated.jpg";

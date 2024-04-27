@@ -1,11 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import React from "react";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
   return (
@@ -54,9 +49,7 @@ const Contact = () => {
               fielmente la esencia de cada momento."
             </p>
             <p className="font-semibold">Tell Eventos</p>
-            <p className="text-sm">
-              Corporate event planners
-            </p>
+            <p className="text-sm">Corporate event planners</p>
           </div>
         </div>
 
