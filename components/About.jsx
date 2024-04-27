@@ -13,15 +13,15 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hi there! I’m Milene Curiel, a passionate film production student in
-            Vancouver, and aspiring director based in Mexico. Born in 2005, I’ve
+            Hi there! I&apos;m Milene Curiel, a passionate film production student in
+            Vancouver, and aspiring director based in Mexico. Born in 2005, I&apos;ve
             always been captivated by the magic of storytelling through cinema.
           </p>
           <p className="py-2 text-gray-600">
             My journey in the world of filmmaking began with a love for visual
-            storytelling, and now I’m dedicated to honing my skills to bring
+            storytelling, and now I&apos;m dedicated to honing my skills to bring
             stories to life on the big screen. Fluent in Spanish, English, and
-            French, I’m passionate about bridging cultures through the universal
+            French, I&apos;m passionate about bridging cultures through the universal
             language of film. Join me on this exciting adventure!
           </p>
           <Link href="/#projects">

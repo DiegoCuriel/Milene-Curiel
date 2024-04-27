@@ -23,7 +23,7 @@ const Crypto = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4 space-y-8">
           <p>
-            I've had the privilege of working on a variety of captivating
+            I&apos;ve had the privilege of working on a variety of captivating
             audiovisual projects, spanning commercials, short films, and other
             cinematic endeavors. Here are a few highlights:
           </p>

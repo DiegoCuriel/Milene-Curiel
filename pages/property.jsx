@@ -38,7 +38,7 @@ const Property = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4 space-y-8">
           <p>
-            While the common denominator on this section is directing, I've also
+            While the common denominator on this section is directing, I&apos;ve also
             contributed to these projects in diverse roles such as writing,
             filming, editing, producing, acting, and more. Each project
             represents a unique blend of creative endeavors and collaborative
