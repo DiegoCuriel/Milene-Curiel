@@ -64,7 +64,7 @@ const Property = () => {
                       src={`https://www.youtube.com/embed/${video.src}`}
                       title="YouTube video player"
                       allowFullScreen
-                      frameborder="0"
+                      frameBorder="0"
                     ></iframe>
                   </div>
                   <a

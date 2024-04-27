@@ -42,7 +42,7 @@ const Crypto = () => {
                   src="https://www.youtube.com/embed/PR4SMILaWqA"
                   title="YouTube video player"
                   allowFullScreen
-                  frameborder="0"
+                  frameBorder="0"
                 ></iframe>
               </div>
               <a
