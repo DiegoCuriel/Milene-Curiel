@@ -79,7 +79,7 @@ const Main = () => {
       </div>
 
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 py-12">
-        <Link href="//#about">
+        <Link href="/#about">
           <a>
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleDown
