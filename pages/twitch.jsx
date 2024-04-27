@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import moreImg from "../public/assets/projects/more.jpg";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
 const twitch = () => {

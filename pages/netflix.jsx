@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-// Lista de imágenes
 const images = [
   { src: "/assets/projects/directed.jpg", alt: "Directed project image" },
   { src: "/assets/projects/photos/2.jpg", alt: "Photo 2" },

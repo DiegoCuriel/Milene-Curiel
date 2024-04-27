@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import directedImg from "../public/assets/projects/directed.jpg";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
 const Property = () => {
