@@ -49,12 +49,12 @@ const Property = () => {
         </div>
 
         <div className="col-span-4">
-          <h2 className="text-2xl font-bold mb-8">Personal Projects</h2>
+          <h2 className="text-2xl font-bold mb-8 mt-2">Personal Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {videos.map((video, index) => (
               <>
                 {video.isCorporate && (
-                  <h2 className="col-span-full text-2xl font-bold mb-2 mt-8">
+                  <h2 className="col-span-full text-2xl font-bold mb-2 mt-12">
                     Corporate Projects
                   </h2>
                 )}
