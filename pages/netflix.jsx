@@ -1,27 +1,47 @@
 import Image from "next/image";
 import React from "react";
-import photographedImg from "../public/assets/projects/photographed.jpg";
 import Link from "next/link";
 
-import OneImg from "../public/assets/projects/directed.jpg";
-import TwoImg from "../public/assets/projects/photos/2.jpg";
-import ThreeImg from "../public/assets/projects/more.jpg";
-import FourImg from "../public/assets/projects/collaborated.jpg";
-import FiveImg from "../public/assets/projects/photos/5.jpg";
-import SixImg from "../public/assets/projects/photos/6.jpg";
-import SevenImg from "../public/assets/projects/photos/7.jpg";
-import EiImg from "../public/assets/projects/photos/8.jpg";
-import NineImg from "../public/assets/projects/photos/9.jpg";
-import TenImg from "../public/assets/projects/photos/10.jpg";
+// Lista de imágenes
+const images = [
+  { src: "/assets/projects/directed.jpg", alt: "Directed project image" },
+  { src: "/assets/projects/photos/2.jpg", alt: "Photo 2" },
+  { src: "/assets/projects/more.jpg", alt: "More projects image" },
+  {
+    src: "/assets/projects/collaborated.jpg",
+    alt: "Collaborated project image",
+  },
+  { src: "/assets/projects/photos/5.jpg", alt: "Photo 5" },
+  { src: "/assets/projects/photos/6.jpg", alt: "Photo 6" },
+  { src: "/assets/projects/photos/7.jpg", alt: "Photo 7" },
+  { src: "/assets/projects/photos/8.jpg", alt: "Photo 8" },
+  { src: "/assets/projects/photos/9.jpg", alt: "Photo 9" },
+  { src: "/assets/projects/photos/10.jpg", alt: "Photo 10" },
+  { src: "/assets/projects/photographed.jpg", alt: "Photographed project" },
+  { src: "/assets/projects/photos/12.jpg", alt: "Photo 12" },
+  { src: "/assets/projects/photos/13.jpg", alt: "Photo 13" },
+  { src: "/assets/projects/photos/14.jpg", alt: "Photo 14" },
+  { src: "/assets/projects/photos/15.jpg", alt: "Photo 15" },
+  { src: "/assets/projects/photos/16.jpg", alt: "Photo 16" },
+];
 
-import EleImg from "../public/assets/projects/photographed.jpg";
-import TweImg from "../public/assets/projects/photos/12.jpg";
-import ThiImg from "../public/assets/projects/photos/13.jpg";
-import FourtImg from "../public/assets/projects/photos/14.jpg";
-import FivetImg from "../public/assets/projects/photos/15.jpg";
-import SixtImg from "../public/assets/projects/photos/16.jpg";
+const ImageGrid = ({ startIndex, endIndex }) => (
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {images.slice(startIndex, endIndex).map((img, index) => (
+      <div key={index}>
+        <Image
+          src={img.src}
+          alt={img.alt}
+          layout="responsive"
+          width={500}
+          height={300}
+        />
+      </div>
+    ))}
+  </div>
+);
 
-const netflix = () => {
+const Netflix = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -30,7 +50,7 @@ const netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={photographedImg}
+          src="/assets/projects/photographed.jpg"
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -52,192 +72,17 @@ const netflix = () => {
 
         <div className="col-span-4">
           <h2 className="text-2xl font-bold mb-8">Personal Photography</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={OneImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={TwoImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={ThreeImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={FourImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={FiveImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={SixImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={SevenImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={EiImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={NineImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={TenImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
+          <ImageGrid startIndex={0} endIndex={10} />
         </div>
 
         <div className="col-span-4">
           <h2 className="text-2xl font-bold mb-8 mt-8">
             Corporate Photography
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={EleImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={TweImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={ThiImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={FourtImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <Image
-                src={FivetImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-            <div>
-              <Image
-                src={SixtImg}
-                alt="Directed project image"
-                layout="responsive"
-                width={500}
-                height={300}
-              />
-            </div>
-          </div>
+          <ImageGrid startIndex={10} endIndex={16} />
         </div>
       </div>
+
       <div className="flex justify-center mt-8 mb-8">
         <Link href="/#projects">
           <a className="text-lg bg-black hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
@@ -249,4 +94,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default Netflix;
