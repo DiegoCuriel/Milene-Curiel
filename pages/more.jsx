@@ -3,7 +3,7 @@ import React from "react";
 import moreImg from "../public/assets/projects/more.jpg";
 import Link from "next/link";
 
-const twitch = () => {
+const More = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -36,4 +36,4 @@ const twitch = () => {
   );
 };
 
-export default twitch;
+export default More;

@@ -40,7 +40,7 @@ const ImageGrid = ({ startIndex, endIndex }) => (
   </div>
 );
 
-const Netflix = () => {
+const Photographed = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -93,4 +93,4 @@ const Netflix = () => {
   );
 };
 
-export default Netflix;
+export default Photographed;

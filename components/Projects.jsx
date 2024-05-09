@@ -17,22 +17,22 @@ const Projects = () => {
           <ProjectItem
             title="Directed"
             backgroundImg={directedImg}
-            projectUrl="/property"
+            projectUrl="/directed"
           />
           <ProjectItem
             title="Collaborated on"
             backgroundImg={collaboratedImg}
-            projectUrl="/crypto"
+            projectUrl="/collaborated"
           />
           <ProjectItem
             title="Photographed"
             backgroundImg={photographedImg}
-            projectUrl="/netflix"
+            projectUrl="/photographed"
           />
           <ProjectItem
             title="& more..."
             backgroundImg={moreImg}
-            projectUrl="/twitch"
+            projectUrl="/more"
           />
         </div>
       </div>

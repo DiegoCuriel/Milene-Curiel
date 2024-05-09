@@ -3,7 +3,7 @@ import React from "react";
 import directedImg from "../public/assets/projects/directed.jpg";
 import Link from "next/link";
 
-const Property = () => {
+const Directed = () => {
   const videos = [
     { src: "ehoz1rZY18I", label: "VIEW on YOUTUBE" },
     { src: "94jucFujnI8", label: "VIEW on YOUTUBE" },
@@ -93,4 +93,4 @@ const Property = () => {
   );
 };
 
-export default Property;
+export default Directed;

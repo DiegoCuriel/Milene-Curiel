@@ -3,7 +3,7 @@ import React from "react";
 import collaboratedImg from "../public/assets/projects/collaborated.jpg";
 import Link from "next/link";
 
-const Crypto = () => {
+const Collaborated = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -69,4 +69,4 @@ const Crypto = () => {
   );
 };
 
-export default Crypto;
+export default Collaborated;
