@@ -19,8 +19,8 @@ const Contact = () => {
         <div className="flex flex-col items-end mt-12 py-12 px-4 max-w-2xl mx-auto">
           <div className="text-right w-full">
             <p className="text-lg mb-2 text-justify italic">
-              &quot;Milene is a great team player. She&apos;s a go-getter and has
-              always the best disposition to keep learning and keep the set
+              &quot;Milene is a great team player. She&apos;s a go-getter and
+              has always the best disposition to keep learning and keep the set
               moving. Always asking what else she can help with. There&apos;s a
               brilliant future ahead of her.&quot;
             </p>
@@ -35,8 +35,8 @@ const Contact = () => {
             <p className="text-lg mb-2 text-justify italic">
               &quot;I have been working with Milene in a few projects and her
               job is Amazing. She really has an increíble talent with the
-              camera, Im really exited to see what&apos;s comming for her in the
-              future.&quot;
+              camera, I&apos;m really excited to see what&apos;s comming for her
+              in the future.&quot;
             </p>
             <p className="font-semibold">Wilson Peregrina</p>
             <p className="text-sm">MMA coach & Samurai FC founder</p>
@@ -46,9 +46,9 @@ const Contact = () => {
         <div className="flex flex-col items-end mt-12 px-4 max-w-2xl mx-auto">
           <div className="text-right w-full">
             <p className="text-lg mb-2 text-justify italic">
-              &quot;Milene logró capturar con habilidad el proceso detrás de
-              bambalinas en nuestros eventos corporativos, transmitiendo
-              fielmente la esencia de cada momento.&quot;
+              &quot;Milene succesfully captured the behind-the-scenes process at
+              our corporate events, accurately conveying the essence of each
+              moment.&quot;
             </p>
             <p className="font-semibold">Tell Eventos</p>
             <p className="text-sm">Corporate event planners</p>
