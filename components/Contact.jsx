@@ -55,6 +55,19 @@ const Contact = () => {
           </div>
         </div>
 
+        <div className="flex flex-col items-end mt-12 px-4 max-w-2xl mx-auto">
+          <div className="text-right w-full">
+            <p className="text-lg mb-2 text-justify italic">
+              &quot;It&apos;s been a pleasure having Milene on the team;
+              she&apos;s attentive, sensitive, and has the best attitude for
+              learning. I&apos;m sure we&apos;ll continue collaborating in the
+              future!!&quot;
+            </p>
+            <p className="font-semibold">Ivan López barba</p>
+            <p className="text-sm">Producer</p>
+          </div>
+        </div>
+
         <div className="flex justify-center py-12 mt-24">
           <Link href="/">
             <a>
